@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+h1 {
+    font: normal 50px Times;
+    color: black;
+    height: 80px;
+    width: 1300px;
+    margin-left: 270px;
+    line-height: 80px;
+    text-align: center;
+    box-shadow: 3px 3px 5px red;
+    background-color: white;
+}
