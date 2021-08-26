@@ -9,6 +9,20 @@
 </head>
 <body>
     <h1>README.md Creator</h1>
-    <div id="Dowload"><a href="aaa">| Dowload |</a></div>
+    <video controls width="500px" id="video" poster="../midia/tumb.png" onmouseenter="videoentrou()" onmouseout="videosaiu()">
+        <source src="../midia/How-To-Use-Pt.1.mp4" type="video/mp4">
+    </video>
+    <script>
+        function videoentrou() {
+            let video = window.document.getElementById("video")
+            video.style.width = "1000px"
+            video.style.boxShadow = "6px 6px 10px white"
+        }
+        function videosaiu() {
+            let video = window.document.getElementById("video")
+            video.style.width = "500px"
+            video.style.boxShadow = "6px 6px 10px white"
+        }
+    </script>
 </body>
 </html>
