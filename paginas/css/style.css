@@ -18,3 +18,7 @@ video#video {
     margin-top: 50px;
     margin-left: 100px;
 }
+video#prop {
+    margin-left: 450px;
+    width: 1000px;
+}
