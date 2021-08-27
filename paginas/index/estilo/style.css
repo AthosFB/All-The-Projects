@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    box-shadow: 3px 3px 5px red;
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+div {
+    font: normal 20px Arial;
+}
+div#read {
+    margin-top: 50px;
+}
+a {
+    color: red;
+}
