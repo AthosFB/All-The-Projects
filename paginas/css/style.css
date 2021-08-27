@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 h1 {
-    font: normal 50px Times;
+    font: normal 60px Times;
     color: black;
     height: 80px;
     width: 1300px;
@@ -13,8 +13,8 @@ h1 {
     background-color: white;
 }
 video#video {
-    box-shadow: 3px 3px 5px white;
-    background-color: white;
+    box-shadow: 3px 3px 5px red;
+    background-color: red;
     margin-top: 50px;
     margin-left: 100px;
 }
