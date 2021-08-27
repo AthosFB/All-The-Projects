@@ -12,10 +12,14 @@ h1 {
 }
 div {
     font: normal 20px Arial;
+    margin-left: 40px;
 }
 div#read {
     margin-top: 50px;
 }
 a {
     color: red;
+}
+div#python {
+    margin-top: 20px;
 }
