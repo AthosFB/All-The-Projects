@@ -21,5 +21,9 @@ a {
     color: red;
 }
 div#python {
-    margin-top: 20px;
+    margin-top: 50px;
+}
+img#readvid {
+    width: 250px;
+    margin-left: 450px;
 }

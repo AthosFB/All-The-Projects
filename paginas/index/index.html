@@ -6,11 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
-    <title>Document</title>
+    <title>Repertório</title>
 </head>
 <body>
     <h1>Aqui Você pode encontrar Uma Parte do Meu Repertório</h1>
     <div id="read">Personalizador De Perfil No GitHub -> <a href="../readme.md/readme.html" target="_blank">Veja Mais</a></div>
+    <br>
+    <div>Esse Programa Cria Automaticamente Um arquivo README.md Para o seu Perfil GitHub, <br> 
+        basta colocar algumas informações básicas e ele completará Automaticamente, Para mais informações clique <a href="../readme.md/readme.html" target="_blank">AQUI</a>
+        <br>
+    <img src="../readme.md/midia/themes.gif" alt="image/gif" id="readvid" onmouseenter="entrou()" onmouseout="saiu()"></div>
     <div id="python">Python & Projetos -> <a href="../python/python.html" target="_blank">Veja Mais</a></div>
+    <script>
+        function entrou() {
+            let gif = window.document.getElementById("readvid")
+            gif.style.width = "500px"
+        }
+        function saiu() {
+            let gif = window.document.getElementById("readvid")
+            gif.style.width = "250px"
+        }
+    </script>
 </body>
 </html>
