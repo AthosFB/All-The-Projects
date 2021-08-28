@@ -25,6 +25,7 @@ div#python {
 img#readvid {
     width: 250px;
     margin-left: 450px;
+    box-shadow: 3px 3px 5px red;
 }
 img#github {
     float: left;
