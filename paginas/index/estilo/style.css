@@ -1,18 +1,17 @@
 body {
     background-color: black;
     color: white;
+    font: normal 20px Arial;
+    margin-left: 40px;
 }
-h1 {
+div#cabeca {
+    margin-left: 0px;
     box-shadow: 3px 3px 5px red;
     background-color: white;
     color: black;
     text-align: center;
-    height: 100px;
-    line-height: 100px;
-}
-div {
-    font: normal 20px Arial;
-    margin-left: 40px;
+    height: 200px;
+    line-height: 70px;
 }
 div#read {
     margin-top: 50px;
@@ -26,4 +25,8 @@ div#python {
 img#readvid {
     width: 250px;
     margin-left: 450px;
+}
+img#github {
+    float: left;
+    margin-left: 50px
 }
