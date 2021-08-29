@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../midia/favicon.ico" type="image/x-icon">
+    <title>Language</title>
+</head>
+<body>
+    <div id="all">
+    <div id="pt-br"><a href="https://github.com/AthosFB/README.md-Creator/tree/main/files/read-creator/Português" id="ptxt" rel="external" onmouseenter="ptentro()" onmouseout="ptsaiu()">Português</a></div>
+
+    <div id="en"><a href="https://github.com/AthosFB/README.md-Creator/tree/main/files/read-creator/English" id="etxt" rel="external" onmouseenter="enentro()" onmouseout="ensaiu()">English</a></div>
+    </div>
+    <script>
+        let etxt = window.document.getElementById("etxt")
+        let ptxt = window.document.getElementById("ptxt")
+        let etxt2 = window.document.getElementById("en")
+        let ptxt2 = window.document.getElementById("pt-br")
+        function ptentro() {
+            ptxt.style.font = "normal 120px Arial"
+            ptxt2.style.width = "555px"
+        }
+        function enentro() {
+            etxt.style.font = "normal 120px Arial"
+            etxt2.style.width = "555px"
+        }
+        function ptsaiu() {
+            ptxt.style.font = "normal 80px Arial"
+            ptxt2.style.width = "370px"
+        }
+        function ensaiu() {
+            etxt.style.font = "normal 80px Arial"
+            etxt2.style.width = "370px"
+        }
+    </script>
+</body>
+</html>
+
+

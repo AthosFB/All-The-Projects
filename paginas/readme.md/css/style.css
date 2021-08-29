@@ -4,10 +4,11 @@ body {
 h1 {
     font: normal 60px Times;
     color: black;
-    height: 80px;
+}
+div#cabeca {
+    height: 150px;
     width: 1300px;
     margin-left: 270px;
-    line-height: 80px;
     text-align: center;
     box-shadow: 3px 3px 5px red;
     background-color: white;
@@ -19,6 +20,13 @@ video#video {
     margin-left: 100px;
 }
 video#prop {
+    margin-top: 100px;
     margin-left: 450px;
     width: 1000px;
+}
+a#dowload {
+    color: white;
+    font: normal 20px Times;
+    box-shadow: 3px 3px 5px black;
+    background-color: black;
 }

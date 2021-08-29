@@ -9,7 +9,11 @@
     <title>README.md Creator</title>
 </head>
 <body>
-    <h1>README.md Creator</h1>
+    <div id="cabeca">
+        <h1>README.md Creator</h1>
+        <a href="paginas/dowload.html" id="dowload" onmouseenter="dowentrou()" onmouseout="dowsaiu()"><strong>DOWLOAD</strong></a>
+    </div>
+
     <video poster="midia/themes.gif" id="prop">
         <source src="midia/How-To-Use-Pt.1.mp4" type="video/mp4">
     </video>
@@ -27,6 +31,14 @@
             let video = window.document.getElementById("video")
             video.style.width = "500px"
             video.style.boxShadow = "3px 3px 5px red"
+        }
+        function dowentrou() {
+            let txt = window.document.getElementById("dowload")
+            txt.style.font = "normal 30px Times"
+        }
+        function dowsaiu() {
+            let txt = window.document.getElementById("dowload")
+            txt.style.font = "normal 20px Times"
         }
     </script>
 </body>

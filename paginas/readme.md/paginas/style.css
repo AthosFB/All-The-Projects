@@ -1,0 +1,33 @@
+body {
+    background-color: red;
+}
+div#all {
+    box-shadow: 8px 8px 8px 8px red;
+    background-color: black;
+    height: 950px;
+}
+div#pt-br {
+    box-shadow: 3px 3px 5px red;
+    width: 370px;
+    background-color: rgb(38, 21, 192);
+    float: right;
+    margin-right: 400px;
+    margin-top: 350px;
+}
+a#ptxt {
+    color: white;
+    font: normal 80px Arial;
+}
+div#en {
+    box-shadow: 3px 3px 5px red;
+    width: 370px;
+    background-color: rgb(38, 21, 192);
+    float: left;
+    margin-left: 400px;
+    text-align: center;
+    margin-top: 350px;
+}
+a#etxt {
+    color: white;
+    font: normal 80px Arial;
+}
