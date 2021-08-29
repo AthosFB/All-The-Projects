@@ -5,13 +5,15 @@ body {
     margin-left: 40px;
 }
 div#cabeca {
-    margin-left: 0px;
     box-shadow: 3px 3px 5px red;
     background-color: white;
     color: black;
+    height: 150px;
+    line-height: 150px;
+}
+h1 {
     text-align: center;
-    height: 200px;
-    line-height: 70px;
+    margin-left: 0px;
 }
 div#read {
     margin-top: 50px;
@@ -29,5 +31,7 @@ img#readvid {
 }
 img#github {
     float: left;
-    margin-left: 50px
+    margin-left: 50px;
+    margin-top: 55px;
+    box-shadow: 3px 3px 5px red;
 }

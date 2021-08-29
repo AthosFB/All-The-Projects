@@ -10,14 +10,14 @@
 </head>
 <body>
     <div id="cabeca">
+        <a href="https://github.com/AthosFB" target="_blank"><img src="paginas/python/fotos/github-40.png" alt="github"  id="github" onmouseenter="gitentro()" onmouseout="gitsaiu()"></a>
         <h1>Aqui Você pode encontrar Uma Parte do Meu Repertório</h1>
-        <a href="https://github.com/AthosFB" target="_blank"><img src="paginas/python/fotos/github-40.png" alt="github"  id="github"></a>
     </div>
 
     <div id="read">Personalizador De Perfil No GitHub -> <a href="paginas/readme.md/readme.html" target="_blank">Veja Mais</a></div>
     <br>
     <div>Esse Programa Cria Automaticamente Um arquivo README.md Para o seu Perfil GitHub, <br> 
-        basta colocar algumas informações básicas e ele completará Automaticamente, Para mais informações clique <a href="paginas/readme.md/readme.html" target="_blank">AQUI</a>
+        basta colocar algumas informações básicas e ele completará Automaticamente.
         <br>
     <img src="paginas/readme.md/midia/themes.gif" alt="image/gif" id="readvid" onmouseenter="entrou()" onmouseout="saiu()"></div>
     <div id="python">Python & Projetos -> <a href="paginas/python/python.html" target="_blank">Veja Mais</a></div>
@@ -29,6 +29,16 @@
         function saiu() {
             let gif = window.document.getElementById("readvid")
             gif.style.width = "250px"
+        }
+        function gitentro() {
+            let foto = window.document.getElementById("github")
+            foto.style.height = "50px"
+            foto.style.boxShadow = "5px 5px 8px red"
+        }
+        function gitsaiu() {
+            let foto = window.document.getElementById("github")
+            foto.style.height = "40px"
+            foto.style.boxShadow = "3px 3px 5px red"
         }
     </script>
 </body>
